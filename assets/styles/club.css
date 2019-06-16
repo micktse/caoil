@@ -1,0 +1,50 @@
+.banner {
+    background-image: url("/images/club_banner.jpg");
+    width: 100%;
+    background-size: 100%;
+    padding-top: 25.4%;
+}
+
+.title {
+    padding: 10px 0 10px 30px;
+    font-size: 12px;
+    width: 100%;
+    justify-content: center;
+    background-color: #FFF;
+}
+
+.title .position {
+    color: #191919;
+    width: 80%;
+}
+
+.title .position a {
+    color: #ffcd1d;
+}
+
+.list {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.list .item {
+    width: 80%;
+    padding: 20px;
+}
+
+.list .pic {
+    min-width: 240px;
+    width: 240px;
+}
+
+.list .content {
+    flex-direction: column;
+    padding: 10px;
+}
+
+.list .description {
+    color: #666;
+    font-size: 12px;
+}

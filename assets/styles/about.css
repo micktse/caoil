@@ -1,0 +1,162 @@
+.banner {
+    background-image: url("/images/about_banner.jpg");
+    width: 100%;
+    background-size: 100%;
+    padding-top: 25%;
+}
+
+.title {
+    background-color: #191919;
+    background-image: url("/images/bg.png");
+    width: 100%;
+    background-position: 120px 0;
+    background-repeat: no-repeat;
+    padding-top: 4%;
+    position: relative;
+}
+
+.title .position {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    height: 100%;
+    align-items: center;
+}
+
+.title .position a {
+    color: #FFF;
+    margin-left: 12px;
+}
+
+.introduction {
+    background-image: url("/images/about_main.jpg");
+    width: 100%;
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    padding-top: 50%;
+    position: relative;
+}
+
+.introduction .slogen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction .slogen i {
+    margin-top: 10px;
+}
+
+.introduction .layer {
+    background-color: #ffea00;
+    opacity: .5;
+    position: absolute;
+    width: 26%;
+    height: 32%;
+    top: 6%;
+    left: 49%;
+}
+
+.introduction .pic {
+    border: #ffea00 1px solid;
+    background-image: url('/images/about.jpg');
+    background-size: 100%;
+    position: absolute;
+    width: 26%;
+    height: 32%;
+    top: 4%;
+    left: 50%;
+}
+
+.introduction .content {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 35%;
+    left: 50%;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.introduction .content p {
+    color: #666;
+    font-size: 12px;
+}
+
+.coperate {
+    background-color: #1f1f1f;
+    width: 100%;
+    padding-top: 32%;
+    position: relative;
+}
+
+.coperate .contact {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding-left: 15%;
+    padding-top: 3%;
+    flex-direction: column;
+}
+
+.coperate .contact h1 {
+    color: #ffcf2a;
+}
+
+.coperate .contact div {
+    margin: 5px 0 5px 0;
+    padding: 5px 2px 5px 2px;
+    width: 350px;
+    border-bottom: 1px solid #CCC;
+}
+
+.coperate .contact i {
+    margin-right: 10px;
+    color: #CCC;
+}
+
+.coperate .contact input,
+.coperate .contact textarea {
+    color: #FFF;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.coperate .contact button {
+    margin-top: 15px;
+    background-color: #ffcf2a;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bolder;
+    width: 350px;
+    cursor: pointer;
+}
+
+.coperate .infomation {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    flex-direction: column;
+    color: #FFF;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.coperate .infomation p {
+    color: #999;
+    font-size: 12px;
+}

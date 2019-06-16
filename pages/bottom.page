@@ -1,0 +1,39 @@
+<div class="bottom">
+    <div class="logo">
+        <img src="images/logo.png" />
+    </div>
+    <div class="menu">
+        <div>
+            <h3>加美1号</h3>
+            <a href="/">首页</a>
+            <a href="products.html">产品中心</a>
+            <a href="school.html">机油学堂</a>
+            <a href="club.html">发烧Club</a>
+            <a href="services.html">服务与支持</a>
+            <a href="about.html">关于我们</a>
+        </div>
+        <div>
+            <h3>产品中心</h3>
+            <a href="#">M系列性能机油</a>
+            <a href="#">R系列性能机油</a>
+            <a href="#">RS系列性能机油</a>
+            <a href="#">S系列性能机油</a>
+            <a href="#">绿箭酯类全合成机油</a>
+            <a href="#">箭王全合成机油</a>
+        </div>
+        <div>
+            <h3>服务与支持</h3>
+            <a href="services.html?faq">FAQ</a>
+            <a href="services.html?points">服务网点</a>
+            <a href="services.html?sold">售后服务</a>
+        </div>
+        <div class="contact">
+            <div><i class="iconfont">&#xe60e;</i>联系电话：</div>
+            <div><i class="iconfont">&#xe60d;</i>联系邮箱：</div>
+            <div>联系地址：广东省佛山市南海区桂城街道桂城75街北约商厦五层03B室</div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    Copyright &copy; 2003-2019 加美1号 权利所有 &nbsp;<a href="http://www.miibeian.gov.cn/">粤ICP备13049970号</a>
+</div>

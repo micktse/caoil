@@ -1,0 +1,176 @@
+.btns {
+    width: 45px;
+    padding: 20px 0 20px 0;
+    border-radius: 60px;
+    background-color: #202020;
+    opacity: .7;
+    position: fixed;
+    right: 60px;
+    top: 25%;
+    z-index: 100;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns .selected {
+    background-color: #ffce1d;
+}
+
+.btns .circle {
+    border: 3px #ffce1d solid;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.btns a {
+    font-size: 12px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #ffce1d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+
+.owl-carousel {
+    width: 100%;
+}
+
+.owl-carousel img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel .dots {
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    z-index: 99;
+    justify-content: center;
+    align-items: center;
+    bottom: 3%;
+}
+
+.carousel .dots div {
+    width: 8%;
+    height: 20%;
+    margin: 0 10px 0 10px;
+    background-color: #f7d334;
+    transform: skewX(-45deg);
+    cursor: pointer;
+}
+
+.carousel .dots .selected {
+    background-color: #202020;
+}
+
+.list {
+    flex-direction: column;
+}
+
+.list-product {
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    padding-top: 55.3%;
+    position: relative;
+}
+
+.list-product-title {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25.2%;
+}
+
+.list-product-btn {
+    position: absolute;
+    right: 10%;
+    bottom: 4%;
+    width: 12%;
+    height: 6%;
+    transform: skewX(-25deg);
+    background-color: #ffce1d;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.list-form {
+    position: absolute;
+    right: 30%;
+    bottom: 5%;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-form div {
+    padding: 5px;
+    border-bottom: 1px #CCC solid;
+    margin: 0 20px 0 20px;
+}
+
+.list-form i {
+    margin-right: 10px;
+    color: #CCC;
+}
+
+.list-form input {
+    color: #CCC;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.list-product-btn div {
+    transform: skewX(25deg);
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.list-m {
+    background-image: url('/images/home_m.jpg');
+}
+
+.list-title-m {
+    background-image: url('/images/home_m.png');
+}
+
+.list-s {
+    background-image: url('/images/home_s.jpg');
+}
+
+.list-title-s {
+    background-image: url('/images/home_s.png');
+}
+
+.list-g {
+    background-image: url('/images/home_g.jpg');
+}
+
+.list-title-g {
+    background-image: url('/images/home_g.png');
+}
+
+.list-c {
+    background-image: url('/images/home_c.jpg');
+}
+
+.list-title-c {
+    background-image: url('/images/home_c.png');
+    height: 14.6%
+}

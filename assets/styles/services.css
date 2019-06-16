@@ -1,0 +1,98 @@
+.banner {
+    background-image: url("/images/services_banner.jpg");
+    width: 100%;
+    background-size: 100%;
+    padding-top: 25.4%;
+}
+
+.title {
+    background-color: #191919;
+    background-image: url("/images/bg.png");
+    width: 100%;
+    background-position: 120px 0;
+    background-repeat: no-repeat;
+    padding-top: 4%;
+    position: relative;
+}
+
+.title .position {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    height: 100%;
+    align-items: center;
+}
+
+.title .position a {
+    color: #FFF;
+    margin-left: 12px;
+}
+
+.func {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    margin-top: 30px;
+}
+
+.func div {
+    background-color: #FFF;
+    margin: 0 20px 0 20px;
+    border: 2px solid #CCC;
+    border-radius: 5px;
+    color: #CCC;
+    padding: 5px 15px 5px 15px;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.func div i {
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.func .choose {
+    color: #191919;
+    background-color: #ffcd1d;
+    border: 2px solid #191919;
+}
+
+.list {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+.item {
+    width: 60%;
+    padding: 20px 40px 20px 40px;
+    border-bottom: 1px dotted #CCC;
+}
+
+.list .logo {
+    width: 50px;
+    min-width: 50px;
+    background-image: url('/images/faq.png');
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 65px;
+}
+
+.list .faq {
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.list .question {
+    line-height: 30px;
+}
+
+.list .answer {
+    color: #999;
+}
