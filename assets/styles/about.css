@@ -83,9 +83,8 @@
     padding: 15px;
 }
 
-.introduction .content p {
-    color: #666;
-    font-size: 12px;
+.introduction .content div {
+    flex-direction: column;
 }
 
 .coperate {
