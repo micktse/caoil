@@ -20,20 +20,14 @@ class SitesModel {
 		let articles = []
 		db.columns
 			.filter(c => c.group_id === groupId)
-			.orderBy('createTime', asc ? 'asc' : 'desc')
 			.value()
 			.forEach(({ id, name }) => {
-				Object.assign(
-					[],
-					db.articles
-						.filter(a => a.column_id === id && a.release)
-						.orderBy('createTime', asc ? 'asc' : 'desc')
-						.value()
-				).forEach(a => {
+				Object.assign([], db.articles.filter(a => a.column_id === id && a.release).value()).forEach(a => {
 					a.column_name = name
 					articles.push(a)
 				})
 			})
+		articles.sort((a, b) => a.createTime > b.createTime === asc)
 		return articles
 	}
 	loadColumns(groupId, asc) {
