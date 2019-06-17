@@ -65,6 +65,7 @@ function list(res, id) {
 				.html(i)
 				.click(function() {
 					page = $(this).html()
+					location.href = '#start'
 					if (id) {
 						$.post('/sites.api', { id, invoke: 'loadArticles', pageSize, page }, function(res) {
 							list(res, id)

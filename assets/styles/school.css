@@ -57,6 +57,7 @@
 .list .description {
     color: #666;
     font-size: 12px;
+    margin-top: 5px;
 }
 
 .list .column {
