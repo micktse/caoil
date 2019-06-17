@@ -10,7 +10,7 @@ $(function() {
 					.attr('class', 'item')
 					.attr('data-id', res.data[i].id)
 					.click(function() {
-						location.href = 'page.html?id=' + $(this).attr('data-id') + '&source=' + $('.source').val()
+						location.href = 'page.html?id=' + $(this).attr('data-id') + '&source=school'
 					})
 					.append(
 						$('<div>')
