@@ -7,19 +7,19 @@
             <h3>加美1号</h3>
             <a href="/">首页</a>
             <a href="products.html">产品中心</a>
-            <a href="school.html">机油学堂</a>
+            <a href="school.html">润滑油学堂</a>
             <a href="club.html">发烧Club</a>
             <a href="services.html">服务与支持</a>
             <a href="about.html">关于我们</a>
         </div>
         <div>
             <h3>产品中心</h3>
-            <a href="#">M系列性能机油</a>
-            <a href="#">R系列性能机油</a>
-            <a href="#">RS系列性能机油</a>
-            <a href="#">S系列性能机油</a>
-            <a href="#">绿箭酯类全合成机油</a>
-            <a href="#">箭王全合成机油</a>
+            <a href="products.html#">M系列性能机油</a>
+            <a href="products.html#">R系列性能机油</a>
+            <a href="products.html#">RS系列性能机油</a>
+            <a href="products.html#">S系列性能机油</a>
+            <a href="products.html#">绿箭酯类全合成机油</a>
+            <a href="products.html#">箭王全合成机油</a>
         </div>
         <div>
             <h3>服务与支持</h3>

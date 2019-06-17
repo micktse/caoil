@@ -42,5 +42,8 @@ class SitesModel {
 			.orderBy('createTime', asc ? 'asc' : 'desc')
 			.value()
 	}
+	loadArticle(articleId) {
+		return db.articles.find(a => a.id === articleId).value()
+	}
 }
 module.exports = { SitesModel }

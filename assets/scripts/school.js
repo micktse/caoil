@@ -10,6 +10,10 @@ function list(res, id) {
 		$('.list').append(
 			$('<div>')
 				.attr('class', 'item')
+				.attr('data-id', res.data[i].id)
+				.click(function() {
+					location.href = 'page.html?id=' + $(this).attr('data-id')
+				})
 				.append(
 					$('<div>')
 						.attr('class', 'pic')
