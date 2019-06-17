@@ -23,6 +23,7 @@ class PageAction {
 		if (id) {
 			let article = new Sites().loadArticle(id)
 			article.create = dateft(article.createTime)
+			article.modified = dateft(article.lastModify)
 			return article
 		}
 		return {}
