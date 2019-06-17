@@ -19,11 +19,12 @@ const dateft = ts => {
 	return ts
 }
 class PageAction {
-	get({ id }) {
+	get({ id, source }) {
 		if (id) {
 			let article = new Sites().loadArticle(id)
 			article.create = dateft(article.createTime)
 			article.modified = dateft(article.lastModify)
+			article.source = source
 			return article
 		}
 		return {}

@@ -10,13 +10,14 @@
 <body>
     <div class="bg">
         <!--include "top.page"-->
-        <div class="banner"></div>
+        <div class="banner ${source}"></div>
+        <input type="hidden" class="source" value="${source}" />
         <div class="body">
             <div class="article-guide">
                 <div class="article">
                     <div class="title">
                         <h1>${title}</h1>
-                        <div><span>创建时间：${create}</span><span>最后修改时间：${modified}</span></div>
+                        <div class="time"><span>创建时间：${create}</span><span>最后修改时间：${modified}</span></div>
                     </div>
                     <div class="content">${content}</div>
                 </div>

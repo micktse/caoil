@@ -22,6 +22,10 @@ $(function() {
 							.append(
 								$('<div>')
 									.attr('class', 'detail')
+									.attr('data-id', res.data[i].articles[j].id)
+									.click(function() {
+										location.href = 'page.html?id=' + $(this).attr('data-id') + '&source=products'
+									})
 									.append(
 										$('<div>')
 											.attr('class', 'word')

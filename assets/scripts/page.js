@@ -2,7 +2,6 @@ $(function() {
 	$.post('/sites.api', { id: 'G0c2b65908b6111e9a203ebf5b105516d', invoke: 'loadAllArticles', random: 8 }, function(
 		res
 	) {
-		console.info(res)
 		for (var i = 0; i < res.data.length; i++) {
 			var text = res.data[i].text
 			text = text.replace(/<img src=\"\S+\" \/>/g, '')
@@ -11,7 +10,7 @@ $(function() {
 					.attr('class', 'item')
 					.attr('data-id', res.data[i].id)
 					.click(function() {
-						location.href = 'page.html?id=' + $(this).attr('data-id')
+						location.href = 'page.html?id=' + $(this).attr('data-id') + '&source=' + $('.source').val()
 					})
 					.append(
 						$('<div>')

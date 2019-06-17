@@ -1,8 +1,23 @@
 .banner {
-    background-image: url("/images/products_banner.jpg");
     width: 100%;
     background-size: 100%;
     padding-top: 25.4%;
+}
+
+.school {
+    background-image: url("/images/school_banner.jpg");
+}
+
+.club {
+    background-image: url("/images/club_banner.jpg");
+}
+
+.products {
+    background-image: url("/images/products_banner.jpg");
+}
+
+.products+.body .time {
+    display: none;
 }
 
 .body {
