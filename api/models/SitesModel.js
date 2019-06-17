@@ -27,7 +27,7 @@ class SitesModel {
 					articles.push(a)
 				})
 			})
-		articles.sort((a, b) => a.createTime > b.createTime === asc)
+		articles.sort((a, b) => (a.createTime < b.createTime === asc ? 1 : -1))
 		return articles
 	}
 	loadColumns(groupId, asc) {
