@@ -78,6 +78,7 @@ function list(res, id) {
 		)
 	}
 	$('.list').append(footer)
+	$('.list .description img').remove()
 }
 function loadAllArticles() {
 	$.post('/sites.api', { id: groupId, invoke: 'loadAllArticles', pageSize, page }, function(res) {

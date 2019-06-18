@@ -33,5 +33,6 @@ $(function() {
 					)
 			)
 		}
+		$('.guide .description img').remove()
 	})
 })
