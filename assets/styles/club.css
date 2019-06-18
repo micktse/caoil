@@ -42,7 +42,9 @@
 
 .list .pic {
     align-items: center;
-    margin-right: 20px;
+    justify-content: center;
+    min-width: 200px;
+    width: 200px;
 }
 
 .list .pic img {
