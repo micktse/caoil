@@ -42,6 +42,7 @@
 
 .list .pic {
     align-items: center;
+    justify-content: flex-end;
     margin-right: 20px;
     min-width: 200px;
     width: 200px;
