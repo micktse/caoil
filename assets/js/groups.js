@@ -99,10 +99,10 @@ function load() {
 		var pageStart = 1
 		if (page > Math.floor(pageList / 2)) {
 			pageStart = page - Math.floor(pageList / 2)
-			pageEnd = page + (pageList - Math.floor(pageList / 2) - 1)
+			pageEnd = pageStart + pageList - 1
 		}
 		if (pageEnd > pageCount) {
-			//pageStart = pageCount - (pageList - 1)
+			pageStart = pageCount - (pageList - 1)
 			pageEnd = pageCount
 		}
 		for (var i = pageStart; i <= pageEnd; i++) {
