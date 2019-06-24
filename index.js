@@ -1,6 +1,7 @@
 const http = require('http')
 const https = require('https')
 const config = require('./config')
+const fs = require('fs')
 const { Dynamic, Static, Api, Lob } = require('./handlers')
 process.sessionContext = new Array()
 const handler = (req, res) => {
