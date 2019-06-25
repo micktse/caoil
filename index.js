@@ -32,7 +32,7 @@ const handler = (req, res) => {
 http
 	.createServer((req, res) => {
 		if (process.HTTPS_SERVER_STARTED) {
-			let host = req.headers.host.split(':')[0]
+			let host = config.host_name
 			res.writeHead(301, {
 				Location: `https://${host}:${config.https_port}${req.url}`
 			})
