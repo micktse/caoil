@@ -55,6 +55,11 @@
 .article .content {
     margin-top: 50px;
     flex-direction: column;
+    display: block;
+}
+
+.article .content div {
+    display: block;
 }
 
 .article .content img {
